@@ -10,7 +10,7 @@
 library(permute)
 
 # Load data
-data <- read.csv(file.choose())
+data = read.csv(file = "data_cleaned/fin_linear_measurements_SL_standardized.csv")
 data$Treatment <- as.factor(data$Treatment)
 
 # Variable list
@@ -98,6 +98,6 @@ print(var_ratio_results)
 # Save results
 write.csv(
   var_ratio_results,
-  "/Users/tomstewart/Documents/papers/to_submit/satanoperca/satanoperca_project/output_files/satanoperca_permutation_var.csv",
+  "output_files/table_S2_satanoperca_permutation_var_linear.csv",
   row.names = FALSE
 )

@@ -1,7 +1,5 @@
 # PURPOSE: Create a permutation test of whether the treatments differ in mean values
 #
-# Notes: To do-- compare and discuss with Michelle about approach. Specificaly, it differs in accounting for SE when comparing means. 
-#
 # AURTHOR: TAS
 # DATE: JUNE 3
 ################################################################################
@@ -9,11 +7,11 @@
 # load packages ####
 library(permute)
 
-# load data ####
-setwd("Documents/papers/to_submit/satanoperca/satanoperca_project/")
 
-data = read.csv(file = "data/data_cleaned/Fin to SL ratios.csv")
+# load data ####
+data = read.csv(file = "data_cleaned/fin_linear_measurements_SL_standardized.csv")
 data$Treatment <- as.factor(data$Treatment)
+
 
 # Variables to test
 ray_vars <- c("Radial_1_Length", "Radial_2_Length", "Radial_3_Length", "Radial_4_Length", 
@@ -103,7 +101,7 @@ print(results)
 # Save results
 write.csv(
   results,
-  "/Users/tomstewart/Documents/papers/to_submit/satanoperca/satanoperca_project/output_files/satanoperca_permutation_means.csv",
+  "output_files/table_S1_satanoperca_permutation_means_linear.csv",
   row.names = FALSE
 )
 
