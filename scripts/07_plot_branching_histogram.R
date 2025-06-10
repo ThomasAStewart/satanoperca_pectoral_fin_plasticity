@@ -56,8 +56,8 @@ plot_rock <- ggplot(Rock, aes(x = SL, fill=Ray3BrachP, color=Ray3BrachP))+
 
 
 plot_wild <- ggplot(Wild, aes(x = SL, fill=Ray3BrachP, color=Ray3BrachP))+
-#  xlim(3, 25)+
-#  ylim(0,3)+
+  xlim(3, 25)+
+  ylim(0,3)+
   geom_histogram(alpha=0.5, binwidth = 0.25)+
   theme_bw() +
   theme(axis.line = element_line(colour = "black"),
@@ -66,9 +66,9 @@ plot_wild <- ggplot(Wild, aes(x = SL, fill=Ray3BrachP, color=Ray3BrachP))+
         panel.border = element_blank(),
         panel.background = element_blank())
 
-
 multiplot(plot_plagic, plot_sand, plot_rock, plot_wild, ncol=1)
+# presently doesn't match the figure in the MS - need to update the wild to include full specimen list
 
-pdf("fig_3bc_branching_histogram.pdf")
+pdf("output_files/fig_3bc_branching_histogram.pdf")
 multiplot(plot_plagic, plot_sand, plot_rock, plot_wild, ncol=1)
 dev.off()
