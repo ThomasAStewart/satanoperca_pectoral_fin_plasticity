@@ -1,0 +1,94 @@
+<shapes type=list>
+	<ruler.pixel type=vector names=FALSE length=1 as.numeric=TRUE >104</ruler.pixel>
+	<ruler.interval type=vector names=FALSE length=1 as.numeric=TRUE >0.1</ruler.interval>
+	<scaling.units type=vector names=FALSE length=1 as.numeric=FALSE >cm</scaling.units>
+	<scaling type=vector names=FALSE length=1 as.numeric=TRUE >0.000961538461538462</scaling>
+	<landmarks.pixel type=matrix rownames=TRUE colnames=FALSE nrow=4 ncol=2 as.numeric=TRUE >
+		LM1	295	1609
+		LM2	303	1624
+		LM3	343	1626
+		LM4	365	1605
+	</landmarks.pixel>
+	<landmarks.scaled type=matrix rownames=TRUE colnames=FALSE nrow=4 ncol=2 as.numeric=TRUE >
+		LM1	0.283653846153846	-1.54711538461538
+		LM2	0.291346153846154	-1.56153846153846
+		LM3	0.329807692307692	-1.56346153846154
+		LM4	0.350961538461538	-1.54326923076923
+	</landmarks.scaled>
+	<curves.control type=list>
+		<C1 type=matrix rownames=FALSE colnames=FALSE nrow=3 ncol=2 as.numeric=TRUE >
+			343	1626
+			345	1617
+			365	1605
+		</C1>
+	</curves.control>
+	<curves.pixel type=list>
+		<C1 type=matrix rownames=FALSE colnames=FALSE nrow=28 ncol=2 as.numeric=TRUE >
+			343	1626
+			343	1625
+			344	1624
+			344	1623
+			345	1622
+			346	1621
+			346	1620
+			347	1619
+			348	1618
+			348	1617
+			349	1617
+			350	1616
+			351	1615
+			352	1614
+			353	1613
+			354	1612
+			355	1612
+			356	1611
+			357	1610
+			358	1609
+			359	1609
+			360	1608
+			361	1608
+			361	1607
+			362	1607
+			363	1606
+			364	1606
+			365	1605
+		</C1>
+	</curves.pixel>
+	<curves.scaled type=list>
+		<C1 type=matrix rownames=FALSE colnames=FALSE nrow=28 ncol=2 as.numeric=TRUE >
+			0.329807692307692	-1.56346153846154
+			0.329807692307692	-1.5625
+			0.330769230769231	-1.56153846153846
+			0.330769230769231	-1.56057692307692
+			0.331730769230769	-1.55961538461538
+			0.332692307692308	-1.55865384615385
+			0.332692307692308	-1.55769230769231
+			0.333653846153846	-1.55673076923077
+			0.334615384615385	-1.55576923076923
+			0.334615384615385	-1.55480769230769
+			0.335576923076923	-1.55480769230769
+			0.336538461538462	-1.55384615384615
+			0.3375	-1.55288461538462
+			0.338461538461538	-1.55192307692308
+			0.339423076923077	-1.55096153846154
+			0.340384615384615	-1.55
+			0.341346153846154	-1.55
+			0.342307692307692	-1.54903846153846
+			0.343269230769231	-1.54807692307692
+			0.344230769230769	-1.54711538461538
+			0.345192307692308	-1.54711538461538
+			0.346153846153846	-1.54615384615385
+			0.347115384615385	-1.54615384615385
+			0.347115384615385	-1.54519230769231
+			0.348076923076923	-1.54519230769231
+			0.349038461538462	-1.54423076923077
+			0.35	-1.54423076923077
+			0.350961538461538	-1.54326923076923
+		</C1>
+	</curves.scaled>
+	<ruler.points type=matrix rownames=TRUE colnames=FALSE nrow=2 ncol=2 as.numeric=TRUE >
+		Ruler point 1	2119	2159
+		Ruler point 2	2223	2159
+	</ruler.points>
+</shapes>
+
