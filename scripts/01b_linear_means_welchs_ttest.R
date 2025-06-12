@@ -11,13 +11,8 @@ data = read.csv(file = "data_cleaned/fin_linear_measurements_SL_standardized.csv
 data$Treatment <- as.factor(data$Treatment)
 
 # Variables to test
-ray_vars <- c(
-  "Radial_1_Length", "Radial_2_Length", "Radial_3_Length", "Radial_4_Length", 
-  "Radial_1_Width", "Radial_2_Width", "Radial_3_Width", "Radial_4_Width",
-  "Marginal_Ray_3_Measurement_1", "Marginal_Ray_3_Measurement_2", "Marginal_Ray_3_Measurement_3", "Marginal_Ray_3_Measurement_4",
-  "Marginal_Ray_4_Measurement_1", "Marginal_Ray_4_Measurement_2", "Marginal_Ray_4_Measurement_3", "Marginal_Ray_4_Measurement_4",
-  "Marginal_Ray_5_Measurement_1", "Marginal_Ray_5_Measurement_2", "Marginal_Ray_5_Measurement_3", "Marginal_Ray_5_Measurement_4"
-)
+ray_vars <- c("Radial_1_Length", "Radial_2_Length", "Radial_3_Length", "Radial_4_Length", 
+              "Radial_1_Width", "Radial_2_Width", "Radial_3_Width", "Radial_4_Width")
 
 # Treatment pairs to compare
 treatment_pairs <- list(
@@ -67,6 +62,9 @@ for (var_name in ray_vars) {
 
 # View summary
 print(results)
+
+results$P_value_BH <- ave(results$P_value_two_sided, results$Variable, FUN = function(p) p.adjust(p, method = "BH"))
+
 
 # Save results
 write.csv(

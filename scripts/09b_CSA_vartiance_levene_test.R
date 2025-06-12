@@ -75,5 +75,7 @@ for (var_name in ray_vars) {
 # View results
 print(levene_results)
 
+levene_results$P_value_BH <- ave(levene_results$P_value_two_sided, levene_results$Variable, FUN = function(p) p.adjust(p, method = "BH"))
+
 # Save results
 write_csv(levene_results, "output_files/table_S_satanoperca_levene_test_CSA.csv")

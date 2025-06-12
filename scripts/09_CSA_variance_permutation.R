@@ -90,9 +90,12 @@ for (var_name in ray_vars) {
 # View final results
 print(var_ratio_results)
 
+var_ratio_results$P_value_BH <- ave(var_ratio_results$P_value_two_sided, var_ratio_results$Variable, FUN = function(p) p.adjust(p, method = "BH"))
+
+
 # Save results
 write.csv(
-  results,
+  var_ratio_results,
   "output_files/table_S1_satanoperca_permutation_variance_CSA.csv",
   row.names = FALSE
 )

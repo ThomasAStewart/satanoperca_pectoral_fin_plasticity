@@ -1,0 +1,7 @@
+"Variable","Group1","Group2","Observed_Var_Ratio","P_value_two_sided","P_value_BH"
+"CSA_ratio","Rock","Pelagic",1.40833356055074,0.6076,0.9114
+"CSA_ratio","Rock","Sand",2.89365767230678,0.4157,0.9114
+"CSA_ratio","Sand","Pelagic",0.486696672529351,1,1
+"Imax_ratio","Rock","Pelagic",1.15158476827058,0.8181,1
+"Imax_ratio","Rock","Sand",1.73071747357092,0.6233,1
+"Imax_ratio","Sand","Pelagic",0.665379985963025,1,1

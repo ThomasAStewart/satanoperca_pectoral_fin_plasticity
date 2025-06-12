@@ -1,0 +1,8 @@
+,,,Permutation test,,,Levene's test,,,,
+Variable,Group1,Group2,Observed_Var_Ratio,P_value_two_sided,P_value_BH,Levene_F,df1,df2,P_value_two_sided,P_value_BH
+CSA_ratio,Rock,Pelagic,1.408333561,0.6076,0.9114,0.027475225,1,17,0.870303857,0.870303857
+CSA_ratio,Rock,Sand,2.893657672,0.4157,0.9114,0.869649258,1,16,0.364912261,0.547368391
+CSA_ratio,Sand,Pelagic,0.486696673,1,1,0.875550333,1,17,0.362526143,0.547368391
+Imax_ratio,Rock,Pelagic,1.151584768,0.8181,1,0.058868039,1,17,0.811197167,0.811197167
+Imax_ratio,Rock,Sand,1.730717474,0.6233,1,0.073915289,1,16,0.789196107,0.811197167
+Imax_ratio,Sand,Pelagic,0.665379986,1,1,0.420011534,1,17,0.525588648,0.811197167

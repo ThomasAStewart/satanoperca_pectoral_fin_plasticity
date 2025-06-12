@@ -1,0 +1,5 @@
+,,,Permutation test,,,Welch's t-test,,,
+Variable,Group1,Group2,Observed_t,P_value_two_sided,P_value_BH,Welch_t,df,P_value_two_sided,P_value_BH
+csa_standardized,Rock,Pelagic,1.026220079,0.4042,0.6063,1.026220079,7.205669248,0.337999248,0.445007245
+csa_standardized,Rock,Sand,0.807240746,0.7448,0.7448,0.807240746,7.306689183,0.445007245,0.445007245
+csa_standardized,Sand,Pelagic,1.138603374,0.2686,0.6063,1.138603374,15.94918413,0.271682903,0.445007245

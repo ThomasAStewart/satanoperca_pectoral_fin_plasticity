@@ -110,6 +110,9 @@ for (var_name in ray_vars) {
 # View summary
 print(results)
 
+results$P_value_BH <- ave(results$P_value_two_sided, results$Variable, FUN = function(p) p.adjust(p, method = "BH"))
+
+
 # Save results
 write.csv(
   results,

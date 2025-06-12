@@ -1,0 +1,4 @@
+"Variable","Group1","Group2","Observed_Var_Ratio","P_value_two_sided","P_value_BH"
+"csa_standardized","Rock","Pelagic",54.5359982891739,0.321,0.5652
+"csa_standardized","Rock","Sand",40.6152116849527,0.3768,0.5652
+"csa_standardized","Sand","Pelagic",1.34274809921472,0.7439,0.7439
