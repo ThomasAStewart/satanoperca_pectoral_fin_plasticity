@@ -1,8 +1,9 @@
 # PURPOSE: Run Levene's tests to assess whether treatments differ in variance
+# -Script runs a runs a loop for all linear measurements on radials and rays
+# -Output are saved to a CSV file.
 #
 # AUTHOR: TAS
 # DATE: JUNE 12
-#
 ################################################################################
 
 # Load packages

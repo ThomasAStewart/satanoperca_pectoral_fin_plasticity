@@ -1,10 +1,10 @@
 # PURPOSE: Run Welch's t-tests to assess whether treatments differ in mean values
+# -Script runs a runs a loop for all linear measurements on radials and rays
+# -Output are saved to a CSV file.
 #
 # AUTHOR: TAS
-# DATE: JUNE 9
+# DATE: JUNE 12
 ################################################################################
-
-# Load packages ####
 
 # Load data ####
 data = read.csv(file = "data_cleaned/fin_linear_measurements_SL_standardized.csv")
@@ -71,6 +71,6 @@ print(results)
 # Save results
 write.csv(
   results,
-  "output_files/table_S3_satanoperca_welch_ttests_linear.csv",
+  "output_files/table_S_satanoperca_welch_ttests_linear.csv",
   row.names = FALSE
 )

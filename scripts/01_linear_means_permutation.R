@@ -1,4 +1,6 @@
-# PURPOSE: Create a permutation test of whether the treatments differ in mean values
+# PURPOSE: Create a permutation test of whether the treatments differ in mean values. 
+# -Script runs a runs a loop for all linear measurements on radials and rays
+# -Output are saved to a CSV file.
 #
 # AURTHOR: TAS
 # DATE: JUNE 3
@@ -6,7 +8,6 @@
 
 # load packages ####
 library(permute)
-
 
 # load data ####
 data = read.csv(file = "data_cleaned/fin_linear_measurements_SL_standardized.csv")
@@ -101,7 +102,7 @@ print(results)
 # Save results
 write.csv(
   results,
-  "output_files/table_S1_satanoperca_permutation_means_linear.csv",
+  "output_files/table_S_satanoperca_permutation_means_linear.csv",
   row.names = FALSE
 )
 

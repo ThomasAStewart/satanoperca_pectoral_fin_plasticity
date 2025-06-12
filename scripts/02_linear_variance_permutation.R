@@ -1,9 +1,9 @@
 # PURPOSE: Create a permutation test of whether the treatments differ in mean variance
-#
-# Notes: To do-- compare and discuss with Michelle about approach. Specifically it differs as (1) 2-sided, and (2) written as a nested loop.
+# -Script runs a runs a loop for all linear measurements on radials and rays
+# -Output are saved to a CSV file.
 #
 # AUTHOR: TAS
-# DATE: JUNE 3
+# DATE: JUNE 12
 ################################################################################
 
 # Load packages
@@ -98,6 +98,6 @@ print(var_ratio_results)
 # Save results
 write.csv(
   var_ratio_results,
-  "output_files/table_S2_satanoperca_permutation_var_linear.csv",
+  "output_files/table_S_satanoperca_permutation_var_linear.csv",
   row.names = FALSE
 )

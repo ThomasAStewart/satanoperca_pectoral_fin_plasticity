@@ -93,7 +93,7 @@ print(var_ratio_results)
 # Save results
 write.csv(
   results,
-  "output_files/table_S1_satanoperca_permutation_means_CSA.csv",
+  "output_files/table_S1_satanoperca_permutation_variance_CSA.csv",
   row.names = FALSE
 )
 

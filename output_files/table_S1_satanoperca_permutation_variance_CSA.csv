@@ -1,0 +1,4 @@
+"Variable","Group1","Group2","Welch_t","df","P_value_two_sided"
+"csa_standardized","Rock","Pelagic",1.02622007921545,7.2056692482162,0.337999247933935
+"csa_standardized","Rock","Sand",0.807240746445561,7.30668918282055,0.44500724488308
+"csa_standardized","Sand","Pelagic",1.13860337421773,15.9491841322079,0.271682903041545

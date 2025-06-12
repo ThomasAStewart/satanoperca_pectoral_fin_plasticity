@@ -1,0 +1,4 @@
+Variable,Group1,Group2,Levene_F,df1,df2,P_value_two_sided
+csa_standardized,Rock,Pelagic,1.3165718968123903,1,16,0.2680766270141013
+csa_standardized,Rock,Sand,1.1795591706740947,1,15,0.2945918416261495
+csa_standardized,Sand,Pelagic,0.002153217913889848,1,17,0.9635299762239047
