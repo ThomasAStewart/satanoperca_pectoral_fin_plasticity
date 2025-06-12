@@ -74,6 +74,6 @@ print(f_test_results)
 # Save results
 write.csv(
   f_test_results,
-  "output_files/table_S4satanoperca_f_test_var_linear.csv",
+  "output_files/table_S4_satanoperca_f_test_var_linear.csv",
   row.names = FALSE
 )
